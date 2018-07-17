@@ -75,4 +75,4 @@ def logout():
 	return redirect(url_for('show_entries'))	
 app.debug = True
 if __name__ == '__main__':
-	app.run('10.10.8.7')
+	app.run('10.10.8.7',port=80)
